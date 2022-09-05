@@ -6,9 +6,9 @@ const Checkout = () => {
     <div className={Style.checkParent}>
         <div className={Style.checkinner}>
             <h2>Checkout</h2>
-            <p>
-                Thankyou for your order.
-            </p>
+            <h3>
+                Thank You For Your Order.
+            </h3>
         </div>
     </div>
   )
