@@ -33,7 +33,7 @@ const Header = () => {
         );
       })}
       <p className={Style.modalTotal}>
-        Total Cost :{" "}
+       Total Cost :{" "}
         {numofitem.reduce((acc, curitem) => {
           console.log(acc);
           console.log(curitem);
@@ -42,7 +42,7 @@ const Header = () => {
       </p>
       <Link className={Style.modalbtn} to="/checkout"  onClick={() => setModal(false)}>
               <a href="/checkout">
-                checkout
+                CheckOut
               </a>{" "}
             </Link>
             <button className={Style.modalbtn} onClick={() => setModal(false)}>Cancel</button>
@@ -52,11 +52,11 @@ const Header = () => {
       
       <div className={Style.header}>
         <div className={Style.headerleft}>
-          <h3> Food's Restuarant</h3>
+          <h1> Food's Restuarant</h1>
         </div>
         <div className={Style.headerright}>
           {numofitem.length > 0 ? (
-                <span onClick={() => setModal(true)}>Cart:{numofitem.length}</span>
+                <span onClick={() => setModal(true)}><h3>Cart:{numofitem.length}</h3></span>
           ) : (
             ""
           )}
