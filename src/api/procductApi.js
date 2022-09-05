@@ -1,29 +1,29 @@
 const data = [
     {
-        item: "hamburger",
-        price:200,
-        image: "./assets/images.jpg",
+        item: "Burger",
+        price:70,
+        image: "./assets/burger.jpg",
         total:0,
         cost:0
     },
     {
-        item: "french",
-        price:100,
-        image: "./assets/download.jpg",
+        item: "French Fries",
+        price:50,
+        image: "./assets/french.jpeg",
         total:0,
         cost:0
     },
     {
-        item: "coke",
-        price:100,
-        image: "./assets/images.png",
+        item: "Coke",
+        price:80,
+        image: "./assets/coke.jpg",
         total:0,
         cost:0
     },
     {
-        item: "pepsi",
-        price:100,
-        image: "./assets/images.png",
+        item: "Pepsi",
+        price:50,
+        image: "./assets/pepsi.png",
         total:0,
         cost:0
     }
