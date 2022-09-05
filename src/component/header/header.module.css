@@ -1,10 +1,10 @@
 .header{
-    background-color: #622fec;
+    background-color: #260288;
     display: flex;
     justify-content: space-between;
     color: white;
     height: 10vh;
-    box-shadow: 0px 3px 4px 0px #808080d1;
+    box-shadow: 0px 3px 4px 0px #d60606d1;
     position: absolute;
     left: 0;
     top: 0;
