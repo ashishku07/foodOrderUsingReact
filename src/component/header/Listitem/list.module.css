@@ -1,0 +1,11 @@
+.listParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 58, 58);
+    text-transform: capitalize;
+}
+
+.listParent p{
+    margin: 1rem;
+}

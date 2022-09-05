@@ -1,0 +1,84 @@
+.header{
+    background-color: #622fec;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 10vh;
+    box-shadow: 0px 3px 4px 0px #808080d1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.headerright{
+    margin-right: 2rem;
+}
+.headerright a{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+.headerleft{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.modalTotal{
+    text-align: center;
+}
+
+.modalParent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+    z-index: 2;
+}
+
+.modalinner{
+    text-align: center;
+    background-color: white;
+    width: 280px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+}
+
+.modalinner button{
+    width: 50px;
+    height: 28px;
+    margin: 0.1rem;
+    border: none;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    box-shadow: 0px 1px 2px 0px #808080d1;
+}
+
+.modalinner button:hover{
+    box-shadow: 0px 3px 4px 0px #808080d1;
+}
+
+.modalbtn ,.modalbtn a{
+    margin: 0.1rem;
+    border: none;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    font-size: 14px !important;
+    box-shadow: 0px 1px 2px 0px #808080d1;
+    color: white;
+    text-decoration: none;
+    width: 100px !important;
+    height: 25px !important;
+    display: inline-block;
+}

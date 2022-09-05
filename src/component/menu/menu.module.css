@@ -1,0 +1,44 @@
+.menuParent{
+    padding: 5rem;
+    padding-top: 20vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.menuLogin{
+    padding: 5rem;
+    padding-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.menuLogin input{
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background: #ffffff;
+    margin: 0.4rem;
+}
+
+.menuLogin button{
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width:1020px){
+    .menuParent{
+        padding: 0;
+        padding-top: 12vh;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+}
